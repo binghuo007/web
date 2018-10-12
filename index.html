@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
     <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+         function sharetosina() {
+            title = "分享微博"
+            url= "https://binghuo007.github.io/web/index.html"
+            picurl= ""
+            var sharesinastring = 'http://v.t.sina.com.cn/share/share.php?title=' + title + '&url=' + url + '&content=utf-8&sourceUrl=' + url + '&pic=' + picurl;
+            window.open(sharesinastring, 'newwindow', 'height=400,width=400,top=100,left=100');
+        }
+    </script>
 </head>
 <body>
 <div class="ui red basic segment  topmenu">
@@ -75,21 +84,21 @@
                         日本人的日常与我们有什么不同？
                     </p>
                     <span style="color:rgb(195, 200, 194)">3小时前</span>
-                    <img src="images/index/weibo.png" alt="" />
+                    <img src="images/index/weibo.png" alt="" onclick="sharetosina();" />
                 </div>
                 <div class="ui segment">
                     <p>
                         怎样增加深度睡眠时间？
                     </p>
                     <span style="color:rgb(195, 200, 194)">3小时前</span>
-                    <img src="images/index/weibo.png" alt="" />
+                    <img src="images/index/weibo.png" alt=""   onclick="sharetosina();" />
                 </div>
                 <div class="ui  segment">
                     <p>
                         热门Top5：年度最大收购案诞生
                     </p>
                     <span style="color:rgb(195, 200, 194)">3小时前</span>
-                    <img src="images/index/weibo.png" alt="" />
+                    <img src="images/index/weibo.png" alt=""   onclick="sharetosina();" />
                 </div>
             </div>
         </div>
